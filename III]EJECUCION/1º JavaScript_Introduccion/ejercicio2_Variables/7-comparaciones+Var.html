@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparaciones + Var</title>
+
+  <!-- | Enlace favicon | -->
+  <link rel="shortcut icon" href="favicon.icon" type="image/s-icon">
+
+  <!-- | Link nativo CSS | -->
+  <link rel="stylesheet" href="css/">
+
+  <!-- | Link nativo o propio javascript | -->
+  <script src="js/"></script>
+
+  <!-- | EXTERNOS ... | -->
+
+
+  <!-- | Carga estilos BootsTrap CSS | -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- | Carga libreria JS BootsTrap  (Javascript) | -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h3 class="display-3">A] OPERADORES LÓGICOS </h3>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Operación</th>
+          <th scope="col">Símbolo</th>
+          <th scope="col">Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Y (Copulaciones)</td>
+          <td>&&</td>
+          <td>La sentencias serán siempre true, siempre y cuando
+            ambas sentencias sean true (verdaderas), si alguna de
+            las sentencias con esta condición fuera false, toda
+            la sentencia conjunta sería falsa
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>O (Cpulaciones)</td>
+          <td>||</td>
+          <td>Toda la sentencia será verdadera (true) cuando solamente
+            alguna de las condiciones de las sentencias sea verdadera.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>NO (Negación)</td>
+          <td>!</td>
+          <td>Negará la sentencia de su valor o true o false</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 class="diplay-3">B] OPERADORES RELACIONALES</h3>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Operador</th>
+          <th scope="col">Símbolo</th>
+          <th scope="col">Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>igual a</td>
+          <td>==</td>
+          <td>iguala el valor a la variable de forma constante</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>distinto</td>
+          <td>!</td>
+          <td>Contrario al elemento comparado</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>mayor</td>
+          <td> > </td>
+          <td>Comparación de cantidad mayor que el elemento comparado</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>menor</td>
+          <td> ∠ </td>
+          <td>Comparación de cantidad menor que el elemento comparado</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>mayor o igual</td>
+          <td> >= </td>
+          <td>Comparación de cantidad mayor o igual que el elemento comparado</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>menor o igual</td>
+          <td> ∠= </td>
+          <td>Comparación de cantidad menor o igual que el elemento comparado</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>igualdad estricta</td>
+          <td> === </td>
+          <td>Igualdad en toda la naturaleza de los elementos, tanto valor como tipo</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>contrario a igualdad estricta</td>
+          <td> !== </td>
+          <td>Distinto a la igualdad en toda la naturaleza de los elementos, tanto valor como tipo</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 class="display-3">C] Operadores Aritmeticos</h3>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Operadores</th>
+          <th scope="col">Símbolo</th>
+          <th scope="col">Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Suma, resta, división y multiplicación</td>
+          <td>+, -, /, *</td>
+          <td>Operadores aritmeticos de números reales</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Cambio de signo </td>
+          <td>-(+valor aritmetico)</td>
+          <td>Cambio de valor en el 3º o 4º cuadrante</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Incremento</td>
+          <td>++</td>
+          <td>Incremento en sucesión del valor propio del elemento</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Decremento</td>
+          <td>--</td>
+          <td>Decremento en sucesión del valor propio del elemento</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Resto</td>
+          <td>%</td>
+          <td>Apunta al valor de la división obtenida en su resto</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script>
+    var numero = 7;
+
+    /* b) Operadores Relacionales */
+    console.log('igualdad: ' + (numero == 7));  //true
+    console.log('desigualdad:' + (numero != '7')); //false
+    console.log('mayor que:' + (numero > 5)); //true
+    console.log('menor que:' + (numero < 5)); //false
+    console.log('mayor o igual que:' + (numero > 10)); //false
+    console.log('menor o igual que:' + !(numero <= 5)); //true
+
+    /* ↓ Incidir en las igualdades estrictas */
+    console.log('Igualdad escricta:' + (numero === '7')); //false
+    console.log('Igualdad:' + (numero == '7')); //true
+    console.log('desigualdad:' + !(numero !== '7')); //false;
+
+    console.log('-----------------------------------')
+
+    /* Variables: */
+    var nombre1 = 'Jefersson';
+    var nombre2 = 'Maholis';
+
+    /* a) Operadores lógicos */
+    console.log('Condicion -Y- : '+ ((nombre1=='jeferson')&&(nombre2=='Maholis')));  // false
+    console.log('Condicion -Y- : '+ ((nombre1==true)&&(nombre2=='Maholis')));  // false
+    console.log('Condicion -ó- : '+ ((nombre1=='jeferson')||(nombre2=='Maholis')));  // true
+
+    /* NEGACIONES */
+    console.log('Condicion -Y- : '+ (!(nombre1=='Jefersson')&&(nombre2=='Maholis')));  // false
+    console.log('Condicion -ó- : '+ !((nombre1=='jeferson')||!(nombre2=='Maholis')));  // True
+
+  </script>
+
+</body>
+
+</html>

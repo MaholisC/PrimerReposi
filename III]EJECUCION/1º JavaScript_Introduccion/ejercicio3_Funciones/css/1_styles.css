@@ -1,0 +1,11 @@
+/* estilo centrado */
+.centrado{
+    text-align: center;
+    margin: 32px auto;
+}
+img{
+    width: 8%;
+    margin: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px 6px;
+}

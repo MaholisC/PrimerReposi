@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores + Var</title>
+</head>
+<body>
+    <!-- 
+        -------------------
+         Operadores básicos 
+         ___________________
+
+      Parte de lo que entendemos como operadores aritmeticos
+      básicos, +,-,*,/
+         Conocida su uso dentro de la aritmetica de js 
+         tendrá alguna peculiaridad
+     -->
+     
+<script>
+ /* Asignación aritmetica simple: en la simple
+    declaración ya, de una variable númerica, es decir   */
+    var bolita = 5;
+/* Asignación aritmetica compuesta: suma de una variable 
+así misma */
+bolita = bolita + 5; // bolita su valor es 10
+
+/* Asignación aritmetica, en sucesion: Utilizaremos 
+los operadores básicos, delante del igual asignaran
+la operación a la variable */
+bolita -=2; //8
+/* Ejercicio */
+var bolita2 = 5;
+
+bolita2 = bolita2+3;
+console.log(bolita2) //8
+
+bolita2 +=3;
+console.log(bolita2) //11
+
+bolita2 =bolita2*6;
+console.log(bolita2) //66
+
+bolita2 *=6;
+console.log(bolita2) //396
+
+bolita2 =bolita2/9;
+console.log(bolita2) //44
+
+bolita2 /=9;
+console.log(bolita2) //4.888
+
+bolita2 =bolita2-2;
+console.log(bolita2) //2.888
+
+bolita2 -=2;
+console.log(bolita2); //0.8888
+/* Por qué boli2 tiene el valor 0.8888 */
+bolita2 = bolita + bolita2 // 8.88888
+console.log(bolita2)
+
+</script>
+    
+</body>
+</html>
