@@ -1,0 +1,69 @@
+h2,td,li{
+   /*  background-color: rgb(209,200 , 206); /* Color rgb de fondo */
+    text-align: center; /* Centrado de nuestro etiqueta */
+    color: #31363b; /* Color hexadecimal de la letra */
+    font-size: xx-large; /* el ancho de la letra */
+    font-weight: bold; /* Estructura de grosor de la letra */
+    letter-spacing: 1px; /* Interespaciado de las grafias */
+    padding: 6px;
+
+
+}
+.fondoEncabezado{
+    /* width: 800px; */
+    margin: 0 auto;
+    height: 400px;
+    text-align: center;
+    /* Centrado de nuestro etiqueta */
+
+    
+    padding-top: 150px;
+    background-image: url(../css/image/hemisferio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color: rgb(209,200 , 206); /* Color rgb de fondo */
+}
+img{
+width: 150px;
+}
+/* Tanto la etiqueta a(enlaces), como ul(listas no ordenadas)
+usaremos los atributos text-decoration y lkst-styles, con el 
+valor none (no), y evitar configuraciones visuales antiguas 
+*/
+a{
+    /* text-decoration: none; */
+    /* respuesta ejercicio b */
+    color: #e2a4e2;
+    /* Accesibilidad en la visualización de los link */
+    text-decoration: underline;
+
+}
+ul{
+    list-style: none;
+    /* Eliminamos la configuración de estructura arriba abajo */
+    list-style-type: none;
+}
+li{
+    /* Centrar una lista */
+    display: inline;
+    padding: 0px 16px;
+    
+}
+/* respuesta ejercicio c */
+p{
+    text-align: center;
+   /*  text-align: center; */
+    font-size: larger;
+    color: #31363b
+
+}
+/* Construimos excepciones cuando nos enfentramos
+a etiquetas ya con valores generalizados */
+
+li img{
+    width: 36px;
+}
+

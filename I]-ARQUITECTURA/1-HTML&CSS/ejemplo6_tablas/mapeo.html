@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reticula o Mapeo</title>
+    <link rel="shortcut icon"
+        href="https://blogthinkbig.com/wp-content/uploads/sites/4/2018/11/Word-Insertar-Tabla.jpg?resize=500%2C308"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h3>LAS TABLAS</h3>
+        <h4>ejercicio 1: Tabla simple</h4>
+        <!-- 
+            Las tablas es un elemento independiente 
+            al igual que las listas, tenemos que tener en cuenta 
+            su comportamiento anidado.
+            Las tablas a día de hoy han variado mucho, en cuanto a su
+            estilo, que antes solamente referenciada en su arquitectura.
+            Su importancia a día de hoy versa en la estructura que generan
+            Sintanxis: 
+            <table>
+                (fila) -> <tr>  
+            (Columna)  ->       <td> </td>
+                          </tr>
+            </table>
+            Atributos:
+            border 
+            Valores numericos:
+            1,2,3
+
+            Etiqueta asociada a las tablas
+           a. <caption></caption> titulo
+           b. <colgroup></colgruop> Trabajar el conjunto de las columnas
+             b.1 <col/>
+             Atributo asocia a los col: 
+             span (movimiento de en las columnas)
+             Valores: (numericos), número de columnas que se unen o acompañan
+                                    en el movimiento 
+         -->
+
+        <table border="1" style="text-align: center;margin: 0 auto;color:brown;">
+            <caption><b>Tabla de la vida</b></caption>
+            <tr>
+                <td>Traducción</td>
+                <td>Le vite</td>
+                <td>Le mort</td>
+            </tr>
+            <tr>
+                <td>Español</td>
+                <td>La vida</td>
+                <td>La muerte</td>
+            </tr>
+
+        </table>
+        <!-- Fin de la primera tabla -->
+
+        <br>
+        <table border="2" style="text-align: center;margin: 0 auto; color: blueviolet; background-color: beige;">
+            <caption><strong>Tabla númerica del 1 al 12</caption></strong>
+            <tr style="color: rgb(6, 86, 86);">
+                <td>UNO</td>
+                <td>DOS</td>
+                <td>TRES</td>
+            </tr>
+            <tr>
+                <td>CUATRO</td>
+                <td>CINCO</td>
+                <td>SEIS</td>
+            </tr>
+            <tr>
+                <td>SIETE</td>
+                <td>OCHO</td>
+                <td>NUEVE</td>
+            </tr>
+            <tr>
+                <td>DIEZ</td>
+                <td>ONCE</td>
+                <td>DOCE</td>
+            </tr>
+        </table>
+        <!-- Fin de la segunda tabla -->
+        <hr style="width: 80%;">
+    </div>
+    <div style="text-align: center;">
+        <p>
+        <pre>
+            Ejercicio: 
+            Realizar una tabla donde muestres dos o tres buscadores
+            con la siguientes condiciones
+            a. los buscadores con imagen (imagen)
+            b. En otra parte de la tabla un enlace directo al buscador 
+            c. En otra parte su descripción    
+            </pre>
+        </p> <br>
+
+        <table style="text-align: center; margin: 0 auto;">
+            <tr style="font-size: 34px; color: aliceblue;">
+                <td>Buscador</td>
+                <td>Enlace</td>
+                <td>Descripción</td>
+            <tr>
+                <td><a href="https://www.google.com/">Ir a google</a></td>
+                <td><a href="https://www.google.com/"><img src="" alt=""><img src="Icono google.png"
+                            style="width: 50px;" alt=""></a></td>
+                <td style="color: white;">Buscador principal en el mundo</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.bing.com/">Ir a Microsoft Bing</a></td>
+                <td><a href="https://www.bing.com/"><img src="" alt=""><img src="Bing-Symbol.png" style="width: 50px;"
+                            alt=""></a></td>
+                <td style="color: white;">Competencia de Google</td>
+
+            </tr>
+            <tr>
+                <td><a href="https://www.firefox.com"></a>Ir a FireFox</td>
+                <td><a href="https://www.firefox.com"><img src="" alt=""><img src="Mozilla_Firefox_3.5_logo.png"
+                            style="width: 50px;" alt=""></a></td>
+                <td style="color: white;">Buscador con competencia media</td>
+            </tr>
+            <colgroup>
+                <col style="background-color: slategrey;" />
+                <col span="2" style="background-color: coral;" />
+                <!--    <col style"backgroup-color coral;"/> -->
+            </colgroup>
+        </table>
+        <!-- FIN DEL EJERCICIO -->
+        <br>
+        <hr style="width: 80%;">
+
+        <!-- 
+            ----------------------------------
+            COMPOSICIÓN Y COMBINACION DE CELDAS
+            ----------------------------------
+            Atributos          Valor             Descripción
+            colspan          nº de espacio        nº a combinar entre columnas
+            rowspan          nº de espacio        nº a combinar entre filas
+         -->
+
+         <h3>ejercicio 3</h3>
+         <h4>Tablas Combinadas </h4>
+         <table border="2" style="margin: 0 auto;">
+            <caption>Combinaciones</caption>
+            <tr>
+                <td>COLUMNA 1</td>
+                <td>COLUMNA 2</td>
+                <td>COLUMNA 3</td>
+                <td>COLUMNA 4</td>
+                <!--th>Error#</th>  -->
+            </tr>
+            <tr>
+                <td colspan="2">DATO 1</td> <!-- la unión de dato 1 y dato 2 -->
+              <!--   <td>DATO 2</td> -->
+                <td>DATO 3</td>
+                <td rowspan="3">DATO 4</td>
+            </tr>
+            <tr>
+                <td>DATO 5</td>
+                <td>DATO 6</td>
+                <td>DATO 7</td>
+                <!-- <td>DATO 8</td> -->
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">DATO 9</td>
+                <!-- <td>DATO 10</td> -->
+                <td>DATO 11</td>
+                <!-- <td>DATO 12</td> -->
+            </tr>
+            <tr>
+                <!-- <td>DATO 13</td>
+                <td>DATO 14</td> -->
+                <td>DATO 15</td>
+                <td>DATO 16</td>
+            </tr>
+         </table>
+
+    </div>
+
+</body>
+
+</html>

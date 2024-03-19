@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Formato de Construcción</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="css/image/bombilla.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+    <!-- 
+             -----------
+                 div
+             -----------   
+             Será el elemento de construcción arquitectónica 
+             básica. Podrá ser un ladrillo o un muro, donde podremos 
+             anidar tantos div, como nos apetezca (sea necesario)
+             Caractereristicas: 
+             Es definido como uns etiqueta de apertura y cierre, asi
+             como bloque (realizará un salto de línea al cierre de la etiqueta
+             div. )
+
+             Además de este ejemplo, trataremos el mundo de los colores 
+     -->
+     <a name="arriba"></a>
+     <div class="fondoEncabezado">
+        <a href="index.html"><img src="css/image/bombilla.png" alt="">
+            <p>Regresar >></p>
+        </a>
+    </div>
+    <div>
+        <!-- Atributo general de estilos
+        styles=""
+     -->
+        <h3 style="font-size: 100px; text-align: center;">
+            <span style="color: red;">L</span>
+            <span style="color: darkgrey;">OS</span>
+            C<span style="color: blueviolet;">O</span><span style="color: burlywood;">L</span><span style="color: brown;">O</SPan><SPAn style="color: #111387;">R</SPAn><span style="color: darkseagreen;">E</span><span style="color: blanchedalmond;">S</span>
+
+                <!-- El span será un elemento de amalgama horizontal, construirá no en vertical
+            como el div, sino en horizontal -->
+        </h3>
+        <!-- Despues del punto y coma ; 
+        del valor del style, podremos añadir otro
+    valor.... y así sucesivamente -->
+        <P style="font-size: large; color: rgb(0, 0, 125); text-align: right;">
+            Lorem, ipsum dolor. <br>
+            Corporis, eaque deserunt! <br>
+            Perferendis, exercitationem reiciendis!
+        </P>
+        <!-- RGB, será el patron de medida del solido del color, estimado
+        por la acotación de los valores del 0 al 255, basado en su modelo
+        matematico de la longitud de onda.
+        Sintaxis:
+    rgb(valor rojo, valor verde, valor azul);
+     -->
+    </div>
+    <hr style="width: 80%;">
+    <div>
+        <p style="font-size: large; color: rgba(0, 0, 125, 0.5); text-align: center;">
+            Lorem, ipsum dolor. <br>
+            Corporis, eaque deserunt! <br>
+            Perferendis, exercitationem reiciendis!
+        </p>
+        <!-- RBGA, el mismo patron que el anterior añadiendo el valor alpha
+        con la misma configuración de 0 a 255, basandose en la indice de transparencia
+    frente a su capacidad o solidez
+    Sintaxis:
+    rgb(valor rojo, valor verde, valor azul, valor opacidad);
+    
+    -->
+    </div>
+    <div>
+        <hr style="width: 80%;">
+        <div>
+            <!-- Colores HEXADECIMALES, significa otra manera de clasificar
+            el espectro de los colores, con la diferencia que se calculan 
+        en base 16; con referencias alphanumericas, es decir, acotacion de dos 
+        numeros(xx) del 0 al 9 y dos letras(nn) de la A a la F.
+
+     -->
+        </div>
+        <P style="font-size: large; color: #323232">
+            Lorem, ipsum dolor. <br>
+            Corporis, eaque deserunt! <br>
+            Perferendis, exercitationem reiciendis!
+        </P>
+
+        <!-- https://htmlcolorcodes.com/ -->
+        <hr style="width: 80%;">
+
+        <p style="text-align: justify;">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, deleniti.
+            Alias doloremque molestias corrupti aperiam ipsa, qui laboriosam voluptatem sint.
+            Culpa dicta minima obcaecati consectetur beatae voluptate vel mollitia unde.
+            Nemo impedit labore dolore, eligendi totam iste non maiores autem?
+            Delectus qui corporis aperiam laboriosam, debitis nam veritatis quos sed.
+            Quaerat corporis laudantium quibusdam nesciunt ab, repellendus perferendis doloremque enim?
+            Sapiente, possimus harum dolorem sequi est laboriosam iste optio quam.
+            Suscipit nesciunt consequuntur tempore optio fuga eveniet quibusdam veritatis maxime!
+            Distinctio animi unde odio exercitationem reiciendis autem iure odit dolor!
+            Quaerat soluta facilis ipsum atque commodi accusantium error assumenda. Iste?
+        </p>
+        
+        <div>
+            <a href="#arriba"><img src="css/image/flecha.png.png" style="width: 15%;" align="right" alt=""> 
+            </a>
+         </div>
+
+         <div style="text-align: center;">
+            <ul>
+                <li><a href="https://api.whatsapp.com/send?phone=34620111092+&text=Buenos dias!, estoy interesada en sus productos https://github.com/MaholisC"><img src="css/image/whatsapp (1).png" alt=""></a></li>
+                <li><a href=""><img src="css/image/instagram.png" alt=""></a></li>
+                <li><a href=""><img src="css/image/linkedin.png" alt=""></a></li>
+                <li><a href=""><img src="css/image/github.png" alt=""></a></li>
+                <li><a href="mailto:andragogo1012@gmail.com"><img src="css/image/gmail.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

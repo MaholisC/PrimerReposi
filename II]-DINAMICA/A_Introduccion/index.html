@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion a Bootstrap</title>
+    <!-- ⇑ + alt + a
+    crea comentarios solo percibibles a los desarrolladores
+    -->
+    <!-- Dentro de la etiqueta <head> será el lugar de carga de las pilas
+        (Carga de datos, o relacion con otros programas) 
+    -->
+    <!-- ↓ La carga de la libreria de CSS (Estilos y visualizaciones) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- ↓ La carga de la libreria de JavaScript (Dinamicas y comportamientos) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- 
+                -------------
+                  BOOTSTRAPS            https://getbootstrap.com/
+                -------------
+         Podemos referenciarlo dentro de los  archiconocidos FRAMEWORKS
+         Nos ofrece una gran cantidad de recursos, componentes, letras, visualizaciones
+         entre otros.   
+         El éxito de Bootstrap radica en dos elementos principales:
+            Q1.Ahorro de tiempo en el desarrollo logrando percepciones muy profesionales
+            Q2.El control perceptivo de la visualizacion, ofreciendo una multitud
+            de ventajas en la MULTIPLATAFORMA (adapta a cualquier dispositivo)
+        -->
+    <div class="container" style="text-align: center; margin:0 auto;">
+        <!-- La clase en BOOTSTRAPS de 'Container' será nuestra encapsulador
+        multipltaforma
+     -->
+        <h2 class="display-2">ESTETICA DE BOOTSTRAPS</h2>
+        <!-- vemos un cambio estetico general, no obstante tendremos
+        a nuestra disposicion una cantidad de recursos para mejorar aun mas
+        la percepcion de nuestra pagina.
+            PARA ELLO LLAMAREMOS EN EL HTML, CON EL ATRIBUTO Class="" los 
+            estilos que tiene bootstrap
+        -->
+        <h3 class="display-3">LISTAS</h3>
+        <h4 class="display-5">Listas Originales</h4>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+        <h4 class="display-6">Lista Modificada</h4>
+        <ul class="list-unstyled">
+            <li>✔️Item 1</li>
+            <li>✔️Item 2</li>
+            <li>✔️Item 3</li>
+            <li>✔️Item 4</li>
+            <li>✔️Item 5</li>
+            <li>✔️Item 6</li>
+        </ul>
+        <br>
+        <h4 class="display-6">Listas en línea</h4>
+        <ul class="list-inline">
+            <li class="list-inline-item">Item 1</li>
+            <li class="list-inline-item">Item 2</li>
+            <li class="list-inline-item">Item 3</li>
+            <li class="list-inline-item">Item 4</li>
+            <li class="list-inline-item">Item 5</li>
+            <li class="list-inline-item">Item 6</li>
+        </ul>
+    </div>
+
+    <hr style="width: 80%; margin: auto;">
+
+    <div class="container">
+        <h3 class="display-6"><b>Tablas</b></h3>
+        <!-- Policromias de Bootstrap
+        Dark(Negro), White(blanco), Primary(Azul), Secondary(Grisaceo), 
+        Warning(amarillo), Danger(rojo), Info(Cian), Success(Verde) 
+        -->
+        <h4>Tabla cebreadas</h4>
+        <table class="table table-danger table-striped">
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+                <th>Encabezado 4</th>
+            </tr>
+            <tr>
+                <td>Dato 1</td>
+                <td>Dato 2</td>
+                <td>Dato 3</td>
+                <td>Dato 4</td>
+            </tr>
+            <tr>
+                <td>Dato 1</td>
+                <td>Dato 2</td>
+                <td>Dato 3</td>
+                <td>Dato 4</td>
+            </tr>
+        </table>
+        <h4>Tablas Selección</h4>
+        <table class="table table-striped table-hover">
+            <tr>
+                <th>Tema 1</th>
+                <th>Tema 2</th>
+                <th>Tema 3</th>
+                <th>Tema 4</th>
+            </tr>
+            <tr>
+                <td>Elemento 1</td>
+                <td>Elemento 2</td>
+                <td>Elemento 3</td>
+                <td>Elemento 4</td>
+            </tr>
+            <tr>
+                <td>Elemento 1</td>
+                <td>Elemento 2</td>
+                <td>Elemento 3</td>
+                <td>Elemento 4</td>
+            </tr>
+            <tr>
+                <td>Elemento 1</td>
+                <td>Elemento 2</td>
+                <td>Elemento 3</td>
+                <td>Elemento 4</td>
+            </tr>
+
+        </table>
+        
+
+    </div>
+
+    <div class="container">
+        <h3 class="h1">Parrafos</h3>
+        <h4>Parrafos Clásicos</h4>
+        <p class="lead">
+            Lorem ipsum dolor sit amet.
+            Similique aperiam unde magnam dolore!
+            Maiores quae labore voluptas dolore?
+            Vitae enim accusamus similique odit!
+            Voluptas consequatur hic fugit rerum.
+        </p>
+        <p class="lead text-center text-danger">
+            Lorem ipsum dolor sit amet.
+            Similique aperiam unde magnam dolore!
+            Maiores quae labore voluptas dolore?
+            Vitae enim accusamus similique odit!
+            Voluptas consequatur hic fugit rerum.
+            Lorem ipsum dolor sit amet.
+            Fugit fugiat velit magnam necessitatibus.
+            Quos voluptas pariatur quod rerum.
+            Maiores dignissimos sunt inventore ex.
+            Officia excepturi quidem fugiat recusandae.
+        </p>
+        <!-- Las alturas entre elementos tendrá sm, lg, line-hight (lh) -->
+        <p class="sm-lg text-muted">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, vero!
+            Sapiente consequuntur optio nulla quae ex quisquam eos officiis error.
+            Debitis obcaecati repellat quidem in ea quae iste quos labore.
+            Expedita quo unde explicabo rerum nostrum debitis laborum minima repellendus.
+            Dicta nobis magni eius quos consequatur iste unde aliquid omnis.
+            Expedita libero eum harum dicta, molestias cumque deleniti qui eius.
+            Nostrum quidem beatae itaque dolores animi labore amet velit aut.
+            Fuga dolorum explicabo dolore voluptate ducimus ipsam cupiditate ad corrupti.
+            Consectetur eius perferendis iusto velit quisquam sint earum. Vitae, quibusdam!
+            Consequatur sed eos consectetur officia ipsum cum laboriosam suscipit reiciendis?
+        </p>
+
+    </div>
+
+
+
+</body>
+
+</html>

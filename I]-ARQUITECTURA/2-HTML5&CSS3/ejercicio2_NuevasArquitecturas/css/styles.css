@@ -1,0 +1,54 @@
+body{
+    background-color: gainsboro;
+}
+/* Configuración de tamaño visual scroll en WEB */
+div{
+    width: 980px;
+    text-align: center;
+    margin: 0 auto;
+}
+header{
+    width: 980px;
+    height: 120px;
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+nav{
+    width: 980px;
+    height: 80px;
+    background-color: navy;
+    color: whitesmoke;
+}
+section{
+    width: 780px;
+    height: 420px;
+    background-color: lightslategray;
+    color: whitesmoke;
+    /* Archiconocido atributo de colocación de elementos, donde cada 
+    uno se le indica cual es su posición */
+    float: left;
+    border-bottom: 2px solid black;
+}
+article{
+    width: 780px;
+    background-color: lightslategrey;
+    height: 210px;
+    color: whitesmoke;
+    float: left;
+    border-bottom: 2px solid black;
+}
+aside{
+    width: 200px;
+     background-color: indianred;
+     height: 210px;
+     float: right;
+     border-bottom: 2px solid black;
+    margin: auto;
+}
+footer{
+    width: 980px;
+    height: 80;
+    float: left;
+    background-color: red;
+    color: whitesmoke;
+}

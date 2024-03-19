@@ -1,0 +1,133 @@
+/* a la hora de diseñar realizamos un boceto de 
+nuestra página, es decir las líneas generales 
+de mi página
+*/
+.centrado {
+    text-align: center;
+    margin: 0 auto;
+}
+
+hr {
+    width: 80%;
+    margin: 32px;
+}
+
+button {
+    background-color: skyblue;
+    color: black;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    /* separar letras entre si */
+    padding: 8px 16px;
+    text-shadow: 0px 1px 1px #ddd;
+    /* Aquí referencio la transición con el tiempo que solicitaré,
+    Sintaxis:
+    transition: tranform tiempo (en seg. o milisegundos)
+    */
+    transition: transform 1.5s;
+}
+
+/* cascadas de estilos ↓ */
+.rojo {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #c0392b;
+}
+
+/* LLAMADAS VISUALES CON CSS3
+:hover :active :focus  */
+.rojo:hover {
+    /* evento de cercania, será un selecctor que cuando 
+    percibe que esta encioma de un elemento ejecuta el estilo  */
+    background-color: #ff5242;
+}
+
+/* evento de 1º click del usuario sobre el elemento.
+Podemos asociar una gran cantidad de acciones */
+.rojo:active {
+    box-shadow: 0px 2px 0px 0px #c0392b;
+}
+
+.azul {
+    background-color: #3498db;
+    box-shadow: 0px 5px 0px 0px #2980b5;
+}
+
+.azul:hover {
+    background-color: #39a0e5;
+}
+
+.azul:active {
+    box-shadow: 0px 2px 0px 0px #2980b5;
+}
+
+/*
+                ---------------
+                LAS ROTACIONES
+                --------------- 
+            Acciones muy utilizadas en su inicio; han perdido fuerza para evitar desgastes 
+            de visualización del usuario. No obstante no podemos perder la ocasión de 
+            dominar y entender como desde html5, podríamos generar y definir un movimiento
+            esdinamico de un elemento respecto a su eje de coordenadas.
+            Sintaxis: 
+            Su atributo es: 
+            transform: rotate(angulo en ° 'degre')
+            Son acciones bruscas, pero la llamada del :hover, como darte cierta transicion 
+            con un tiempo razonado y ofrecer suavidad eb el movimiento.
+            Para ello utilizaremos las transiciones, que deberán, ojo! apuntar al elemento 
+            que en este caso será el button
+ */
+.rotacion1:hover {
+    transform: rotate(30deg);
+}
+
+.rotacion2:hover {
+    transform: rotate(-30deg);
+}
+
+/* Utilizando los ejes x,y,z, así como un angulo, define las escalas con el angulo
+ de rotación */
+.rotacion3:hover {
+    transform: rotate3d(1, 1, 2, 90deg);
+}
+
+/* Elegimos en que plano realiza la rotación */
+.rotacion4:hover {
+    transform: rotateY(360deg);
+}
+.menu{
+    background-color: rgb(212, 205, 205);
+    color: whitesmoke;
+    border-color: black;
+    font-size: 32px;
+    box-shadow: 2px 2px 2px rgb(139, 137, 137);
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 32px;
+    transition: background-color 0.8s, border-radius 0.8s, color 0.8s, font-size 0.8s;
+}
+.menu:hover{
+    background-color: rgb(238, 212, 212);
+    border-radius: 6px;
+    color: black;
+    font-size: 34px;
+}
+.tarea{
+    background-color: gray;
+    width: 30rem;
+    padding: 16px;
+    text-align: center;
+    text-align: justify;
+    margin: 0 auto;
+    font-weight: bold;
+    transition: width 6s, color 6s, height 6s, background-color 6s ;
+    
+}
+.tarea:hover{
+    width: 70% ;
+    min-height: 60px;
+    background-color: lightgray;
+    color: #c0392b;
+}

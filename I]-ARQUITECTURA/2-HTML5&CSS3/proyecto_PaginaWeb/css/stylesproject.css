@@ -1,0 +1,150 @@
+.tablero img {
+    height: 220px;
+}
+
+body {
+    background-color: white;
+}
+
+.logo img {
+    height: 220px;
+
+
+}
+
+div {
+    text-align: center;
+}
+
+div.lista {
+    text-align: none;
+    width: 80%;
+    margin: 50px;
+}
+
+div.redes {
+    text-align: right;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.fondo {
+    background-image: url(../image/LOGO.png);
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+
+    .texto-margen {
+        margin-right: 30px;
+    }
+}
+
+section {
+    width: 700px;
+    height: 420px;
+    background-color: none;
+    color: black;
+    float: left;
+    border-bottom: 2px solid black;
+
+}
+
+aside {
+    
+    width: 300px;
+    /* background-color: white; */
+    float: right;
+   /*  border-bottom: 2px solid rgb(169, 17, 17); */
+    margin: 40px auto;
+    
+}
+
+aside ul{
+    list-style: none;
+    list-style-type: none;
+}
+
+aside ul li{
+    margin: 10px 0 10px 30%;
+    width: auto;
+    display: block;
+    
+}
+
+li img {
+    display: flex;
+    padding: 0px 16px;
+    height: 60px;
+
+}
+
+nav {
+    background-color: gainsboro;
+    overflow: hidden;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: green;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+div.video {
+    text-align: center;
+
+}
+
+h1.scrum {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-color: rgb(18, 14, 14);
+
+}
+
+footer table{
+    text-align: center; 
+    margin: 30px auto;
+    width: auto;
+}
+
+table td {
+    background-color: rgb(217, 255, 255);
+    color: black;
+    padding: 20px;
+    
+}
+footer table tr{
+    font-size: 46px; 
+        
+}
+
+footer table tr td img {
+    width: 60px;
+
+}
+
+

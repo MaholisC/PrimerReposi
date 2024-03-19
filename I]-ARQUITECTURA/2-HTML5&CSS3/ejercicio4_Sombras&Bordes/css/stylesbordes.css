@@ -1,0 +1,44 @@
+h2 {
+    text-align: center;
+}
+
+/* Estructura del div, podemos ver su presencia 
+a través del inspector de nuestro cliente(navegador) */
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* ESTRUCTURA DE BORDEADOS
+El atributo general de apreciación de los bordes será::
+border-radius: valor;
+valor: x,y,x',y' (radio del valor de la circubsferencia)
+*/
+.cuadro1{
+    border-radius: 20px;
+}
+.cuadro2{                               /* x---------y
+                                          y'---------x' */
+    border-radius: 20px 60px;
+}
+.cuadro3{
+    height: 300px;
+    width: 200px;
+    border-radius: 15px 50px 30px;
+    
+}
+.cuadro4{
+    /* Porcentajes relevantes
+    para conseguir circunsferencias los lados tienen que
+    ser proporcionales en dimensión lado =lado2 */
+    height: 200px;
+    width: 200px;
+    border-radius: 200%;
+}
+.cuadro5{
+    border-radius: 20px 80px 60px 100px;
+}
