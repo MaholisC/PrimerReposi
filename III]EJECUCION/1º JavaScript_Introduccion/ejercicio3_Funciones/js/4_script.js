@@ -38,7 +38,7 @@ function reenvio() {
 /*Metodo de localizacion entendido location()
 utilizando la propiedad de .href  */
 
-location.href='entrada.html';    
+location.href='0_entrada.html';    
 }
 
 

@@ -4,9 +4,7 @@ body {
   height: 100%;
 }
 /* añadimos este estilo a la imagen para ajustarla en el body */
-svg{
-  margin-top: 64px;
-}
+
 
 body {
   display: flex;
